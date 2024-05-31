@@ -85,7 +85,6 @@ body.scale-cv{
     
     position: absolute;
     top: 2.2rem;
-    /* bottom: 0; */
     left: 0;
     font-size: 1.2rem;
     color: var(--text-color);
@@ -134,7 +133,9 @@ body.scale-cv{
 .scale-cv .home__container{
     gap: 1.5rem;
 }
-
+.scale-cv .home__information {
+    font-size: 15px;
+}
 .scale-cv .home__data{
     gap: .25rem;
 }
@@ -156,9 +157,6 @@ body.scale-cv{
     gap: 1rem;
 }
 
-.scale-cv .education__title {
-    font-size: 10px;
-}
 
 .scale-cv .education__time,
 .scale-cv .experience__time{
@@ -177,6 +175,9 @@ body.scale-cv{
     width: 11px;
     height: 11px;
     margin-top: .22rem;
+}
+.scale-cv .education__year {
+    font-size: 13px;
 }
 
 .scale-cv .education__line,
@@ -200,12 +201,17 @@ body.scale-cv{
 
 .scale-cv .skills__name{
     margin-bottom: var(--mb-1);
+    font-size: 15px;
 }
+
 
 .scale-cv .interests__container{
     column-gap: 2.5rem;
 }
 
+.scale-cv .social__link {
+    font-size: 15px;
+}
 
 body{
     margin: 0 0 var(--header-height) 0;
