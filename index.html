@@ -1,361 +1,362 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--========== BOX ICONS ==========-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
 
-        <!--========== BOX ICONS ==========-->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" type="text/css" href="styles.css" />
 
-        <!--========== CSS ==========-->
-        <link rel="stylesheet" type="text/css" href="styles.css" >
+    <title>Resume</title>
+  </head>
+  <body>
+    <!--========== HEADER ==========-->
+    <header class="l-header" id="header">
+      <nav class="nav bd-container">
+        <a href="#" class="nav_logo">Brajesh S</a>
 
-       
-        <title>Resume</title>
-    </head>
-    <body>
-        <!--========== HEADER ==========-->
-        <header class="l-header" id="header">
-            <nav class="nav bd-container">
-                <a href="#" class="nav_logo">Brajesh S</a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">
+                <i class="bx bx-home nav__icon"></i>Home
+              </a>
+            </li>
 
-                <div class="nav__menu" id="nav-menu">
-                    <ul class = "nav__list">
-                        <li class = "nav__item">
-                            <a href="#home" class="nav__link active-link">
-                                <i class = "bx bx-home nav__icon"></i>Home
-                            </a>
-                        </li>
+            <li class="nav__item">
+              <a href="#profile" class="nav__link">
+                <i class="bx bx-user nav__icon"></i>Profile
+              </a>
+            </li>
 
-                        <li class = "nav__item">
-                            <a href="#profile" class="nav__link">
-                                <i class = "bx bx-user nav__icon"></i>Profile
-                            </a>
-                        </li>
+            <li class="nav__item">
+              <a href="#education" class="nav__link">
+                <i class="bx bx-book nav__icon"></i>Education
+              </a>
+            </li>
 
-                        <li class = "nav__item">
-                            <a href="#education" class="nav__link">
-                                <i class = "bx bx-book nav__icon"></i>Education
-                            </a>
-                        </li>
+            <li class="nav__item">
+              <a href="#experience" class="nav__link">
+                <i class="bx bx-briefcase-alt nav__icon"></i>Projects
+              </a>
+            </li>
 
-                        <li class = "nav__item">
-                            <a href="#experience" class="nav__link">
-                                <i class = "bx bx-briefcase-alt nav__icon"></i>Projects
-                            </a>
-                        </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">
+                <i class="bx bx-code-alt nav__icon"></i>Skills
+              </a>
+            </li>
+          </ul>
+        </div>
 
-                        <li class="nav__item">
-                            <a href="#skills" class="nav__link">
-                               <i class="bx bx-code-alt nav__icon"></i>Skills
-                            </a>
-                         </li>
-                    </ul>  
-                </div> 
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-grid-alt"></i>
+        </div>
+      </nav>
+    </header>
 
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class = "bx bx-grid-alt"></i>
+    <main class="l-main bd-container">
+      <!-- All elements within this div, is generated in PDF -->
+      <div class="resume" id="area-cv">
+        <div class="resume__left">
+          <!--========== HOME ==========-->
+          <section class="home" id="home">
+            <div class="home__container section bd-grid">
+              <div class="home__data bd-grid">
+                <img src="bijuxd.jpg" alt="" class="home__img" />
+
+                <h1 class="home__title">BRAJESH <b>S</b></h1>
+                <h3 class="home__profession">Web Developer</h3>
+
+                <div></div>
+                <a download="" href="ResumeCv.pdf" class="home__button-movil"
+                  >Download</a
+                >
+              </div>
+
+              <div class="home__address bd-grid">
+                <span class="home__information">
+                  <i class="bx bx-map home__icon"></i>Bengaluru
+                </span>
+
+                <span class="home__information">
+                  <i class="bx bx-envelope home__icon"></i>
+                  brajeshsekar@outlook.com
+                </span>
+
+                <span class="home__information">
+                  <i class="bx bx-phone home__icon"></i> 9384631627
+                </span>
+              </div>
+            </div>
+            <!-- Theme change button -->
+            <i
+              class="bx bx-moon change-theme"
+              title="Theme"
+              id="theme-button"
+            ></i>
+
+            <!-- Button to generate and download the pdf. Available for desktop. -->
+            <i
+              class="bx bx-download generate-pdf"
+              title="Generate PDF"
+              id="resume-button"
+            ></i>
+          </section>
+
+          <!--========== SOCIAL ==========-->
+          <section class="social section">
+            <h2 class="section-title">SOCIAL</h2>
+
+            <div class="social__container bd-grid">
+              <a
+                href="https://www.linkedin.com/in/brajesh-s-68126b1ba"
+                target="_blank"
+                class="social__link"
+              >
+                <i class="bx bxl-linkedin-square social__icon"></i> Linkedin
+              </a>
+
+              <a
+                href="https://github.com/Brajesh-S"
+                target="_blank"
+                class="social__link"
+              >
+                <i class="bx bxl-github" style="margin-right: 5px"></i> Github
+              </a>
+            </div>
+          </section>
+
+          <!--========== PROFILE ==========-->
+          <section class="profile section" id="profile">
+            <h2 class="section-title">Profile</h2>
+            <p class="profile__description">
+              Web developer with a solid foundation in full stack development.
+              Developed an AI-Powered PDF-BOT, a Quiz App, a mern stack app and
+              an Interactive resume
+            </p>
+          </section>
+
+          <!--========== EDUCATION ==========-->
+          <section class="education section" id="education">
+            <h2 class="section-title">Education</h2>
+
+            <div class="education__container bd-grid">
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                  <span class="education__line"></span>
                 </div>
-            </nav>
-        </header>
 
-        <main class="l-main bd-container">
-            <!-- All elements within this div, is generated in PDF -->
-            <div class="resume" id="area-cv">
-                <div class="resume__left">
-                    <!--========== HOME ==========-->
-                    <section class="home" id="home">
-                        <div class = "home__container section bd-grid">
-                            <div class="home__data bd-grid">
-                                <img src= "bijuxd.jpg" alt="" class="home__img">
-
-                                <h1 class="home__title">BRAJESH <b>S</b></h1>
-                                <h3 class="home__profession">Web Developer</h3>
-
-                                <div>
-                                 
-                                </div>  <a download = "" href="ResumeCv.pdf" class="home__button-movil">Download</a>
-                            </div>
-
-                            <div class="home__address bd-grid">
-                                <span class = "home__information">
-                                    <i class ="bx bx-map home__icon"></i>Bengaluru
-                                </span>
-
-                                <span class = "home__information">
-                                    <i class ="bx bx-envelope home__icon"></i> brajeshsekar@outlook.com
-                                </span>
-
-                                <span class = "home__information">
-                                    <i class ="bx bx-phone home__icon"></i> 9384631627
-                                </span>
-                            </div>
-                        </div>
-                        <!-- Theme change button -->
-                        <i class = "bx bx-moon change-theme" title = "Theme" id = "theme-button"></i>
-
-                        <!-- Button to generate and download the pdf. Available for desktop. -->
-                        <i class = "bx bx-download generate-pdf" title = "Generate PDF" id = "resume-button"></i>
-                    </section>          
-                    
-                    <!--========== SOCIAL ==========-->
-                    <section class="social section">
-                        <h2 class="section-title">SOCIAL</h2>
-
-                        <div class="social__container bd-grid">
-                            <a href="https://www.linkedin.com/in/brajesh-s-68126b1ba" target = "_blank" class="social__link">
-                                <i class = "bx bxl-linkedin-square social__icon"></i> Linkedin
-                            </a>
-
-                            <a href="https://github.com/Brajesh-S"target = "_blank" class="social__link">
-                                <i class= 'bx bxl-github' style="margin-right: 5px;" ></i> Github
-                            </a>
-
-                            <!-- <a href="https://www.instagram.com/biju.xd/" target = "_blank" class="social__link">
-                                <i class = "bx bxl-instagram social__icon"></i> Instagram
-                            </a> -->
-
-                        </div>
-                    </section>
-
-                    <!--========== PROFILE ==========-->
-                    <section class="profile section" id="profile">
-                        <h2 class="section-title">Profile</h2>
-                        <p class="profile__description">Web developer with a solid foundation in full stack development. Developed an AI-Powered PDF-BOT, a Quiz App, a mern stack app and an Interactive resume </p>
-                    
-                    </section>
-                    
-                    <!--========== EDUCATION ==========-->
-                    <section class="education section" id="education">
-                        <h2 class="section-title">Education</h2>
-
-                        <div class="education__container bd-grid">
-                           <div class="education__content">
-                            <div class="education__time">
-                                <span class="education__rounder"></span>
-                                <span class="education__line"></span>
-                            </div>
-
-                            <div class="education__data bd-grid">
-                                <h3 class="education__title">Visual Communication(BSC)</h3>
-                                <span class="education__studies">Sathyabama University</span>
-                                <span class="education__year">2017-2020</span>
-                            </div>
-                           </div> 
-
-                           <div class="education__content">
-                            <div class="education__time">
-                                <span class="education__rounder"></span>
-                                <span class="education__line"></span>
-                            </div>
-                            
-                            <div class="education__data bd-grid">
-                                <h3 class="education__title">HSC</h3>
-                                <span class="education__studies">Velammal Matriculation Higher Secondary School</span>
-                                <span class="education__year">2016</span>
-                            </div>
-                           </div> 
-                          
-                           <div class="education__content">
-                            <div class="education__time">
-                                <span class="education__rounder"></span>
-                               <!-- <span class="education__line"></span> -->
-                            </div>
-
-                           <div class="education__data bd-grid">
-                                <h3 class="education__title">SSC</h3>
-                                <span class="education__studies">Velammal Matriculation Higher Secondary School</span>
-                                <span class="education__year">2014</span>
-                            </div>
-                           </div> 
-                        </div>
-                    </section>
-                    <!-- <section class="languages section">
-                        <h2 class="section-title">Languages</h2> 
- 
-                        <div class="languages__container">
-                         <ul class="languages__content bd-grid">
-                             <li class="languages__name">
-                                 <span class="languages__circle"></span> English
-                             </li>
- 
-                             <li class="languages__name">
-                                 <span class="languages__circle"></span> Tamil
-                             </li>
-                         </ul>
-                        </div>
-                     </section>  -->
-
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">Visual Communication(BSC)</h3>
+                  <span class="education__studies">Sathyabama University</span>
+                  <span class="education__year">2017-2020</span>
                 </div>
-               
-              
-                
-                 
-                <div class="resume__right">
-                    <!--========== EXPERIENCE ==========-->
-                    <section class="experience section" id="experience">
-                       <h2 class="section-title"><Pic>PROJECTS</Pic></h2> 
+              </div>
 
-                            <div class="experience__data bd-grid">
-                        
-                                <span class="experience__company">PDF-bot</span>
-                                <p class="experience__description">A FastAPI-based tool that let users upload PDFs, index their content with LlamaIndex's VectorStoreIndex, and interact via a chat interface powered by LlamaIndex's ChatEngine. With a React frontend and CORS support, it provides a flexible solution for document-related Q&A and AI-driven information retrieval. Server wake-up time 50 secs.
-                                </p>
-                                <a href="https://pdf-bot-hosting.onrender.com/" class="custom-link">CLICK TO VIEW</a>
-                                
-                               <span class="experience__company">Movies wiki </span>
-                               <p class="experience__description">Developed a MERN movie app with a RESTful API backend, leveraging an external movie API for data integration. Implemented CRUD operations and user authentication with JWT. Deployed the application on a cloud platform for accessibility. Max wake up time 50 secs
-                               </p>
-                               <a href="https://movies-wiki.onrender.com" class="custom-link">CLICK TO VIEW</a>
-                                
-                               <span class="experience__company">Quiz App </span>
-                               <p class="experience__description">Built using React.js for the frontend, Node.js with Express for the backend, and MySQL for the database. Max wake-up time 50 secs or reload the page </p>
-                               <a href="https://quiz-app-client-k7i4.onrender.com/" class="custom-link">CLICK TO VIEW</a>
-
-                               <span class="experience__company">Resume </span>
-                                   <p class="experience__description">Built an interactive online resume using HTML, CSS, and JavaScript. It features PDF generation and is responsive for any device or browser. The design ensures clean printing on A4 sized paper.</p>
-                                   <a href="https://brajesh-s.github.io/Resume/" class="custom-link">CLICK TO VIEW</a>
-                            </div>
-                        
-                    </section>
-
-                      <!--========== SKILLS  ==========-->
-                      <section class="skills section" id="skills">
-                          <h2 class="section-title">Skills</h2>
-                      
-                          <div class="skills__content">
-                              <ul class="skills__data">
-                                  <li class="skills__category">Front-End Technologies: </li>
-                                  <li class="skills__item">
-                                      <div class="skills__circle"></div>
-                                      HTML/CSS
-                                  </li>
-                                  <li class="skills__item">
-                                      <div class="skills__circle"></div>
-                                      JavaScript
-                                  </li>
-                                  <li class="skills__item">
-                                      <div class="skills__circle"></div>
-                                      React.js
-                                  </li>
-                                  <li class="skills__category">Back-End Technologies:</li>
-                                  <li class="skills__item">
-                                      <div class="skills__circle"></div>
-                                      Express
-                                  </li>
-                                  
-                                  <li class="skills__item">
-                                      <div class="skills__circle"></div>
-                                      Node.js
-                                  </li>
-                                  <li class="skills__item">
-                                    <div class="skills__circle"></div>
-                                    FastAPI
-                                </li>
-                                <li class="skills__item">
-                                    <div class="skills__circle"></div>
-                                    Uvicorn
-                                </li>
-                                <li class="skills__item">
-                                    <div class="skills__circle"></div>
-                                   LlamaIndex
-                                </li>
-            
-                                  
-                                  <li class="skills__category">Database and Data Storage:</li>
-                                  <li class="skills__item">
-                                    <div class="skills__circle"></div>
-                                    MySQL
-                                </li>
-                                  <li class="skills__item">
-                                      <div class="skills__circle"></div>
-                                      MongoDB
-                                  </li>
-
-                                  <li class="skills__item">
-                                      <div class="skills__circle"></div>
-                                      Firebase
-                                  </li>
-                                 
-                      
-                                  <li class="skills__category">Version Control and Collaboration:</li>
-                                  <li class="skills__item">
-                                      <div class="skills__circle"></div>
-                                      Git
-                                  </li>
-                                  <li class="skills__category">Programming Languages:</li>
-                                  <li class="skills__item">
-                                      <div class="skills__circle"></div>
-                                      Java
-                                  </li>
-                                  <li class="skills__item">
-                                    <div class="skills__circle"></div>
-                                    Python
-                                </li>
-                              </ul>
-                          </div>
-                      </section>
-                      
-                    <!--========== REFERENCES ==========-->
-                    <!-- <section class="references section" id="references">
-                        <h2 class="section-title">References</h2>
-
-                        <div class="references__container bd-grid">
-                            <div class="references__content bd-grid">
-                                <span class="references__subtitle">Reference 1</span>
-                                <h3 style="font-size:small" class="references__title"></h3>
-                                <ul class="references__contact">
-                                    <li>Phone: </li>
-                                    <li>Email: </li></ul>
-                            </div> -->
-
-                           
-                    <!-- </section> -->
-
-                    <!-- ========== LANGUAGES ========== -->
-                    
-            
-                    
-                    <!--========== INTERESTS ==========-->
-                    <!-- <section class="interests section">
-                        <h2 class="section-title">Interests</h2>
-
-                        <div class="interests__container bd-grid">
-                            <div class="interests__content">
-                                <i class='bx bxs-joystick interests__icon'></i>
-                                <span class="interests__name">Gaming</span>
-                            </div>
-
-                            <div class="interests__content">
-                                <i class='bx bxs-bowl-rice interests__icon'></i>
-                                <span class="interests__name">Cooking</span>
-                            </div>
-
-                            <div class="interests__content">
-                                <i class = "bx bx-book interests__icon"></i>
-                                <span class="interests__name">Reading</span>
-                            </div>
-
-                            <div class="interests__content">
-                                <i class='bx bx-run interests__icon'></i>
-                                <span class="interests__name">Running</span>
-                            </div>
-                        </div>
-                    </section>
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                  <span class="education__line"></span>
                 </div>
-            </div>        
-        </main> -->
 
-        <!--========== SCROLL TOP ==========-->
-        <a href="#" class="scrolltop" id="scroll-top">
-            <i class = "bx bx-up-arrow-alt scrolltop__icon"></i>
-        </a>
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">HSC</h3>
+                  <span class="education__studies"
+                    >Velammal Matriculation Higher Secondary School</span
+                  >
+                  <span class="education__year">2016</span>
+                </div>
+              </div>
 
-        <!--========== HTML2PDF ==========-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-        <!--========== MAIN JS ==========-->
-        <script src="main.js"></script>
-    </body>
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                </div>
+
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">SSC</h3>
+                  <span class="education__studies"
+                    >Velammal Matriculation Higher Secondary School</span
+                  >
+                  <span class="education__year">2014</span>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <div class="resume__right">
+          <!--========== EXPERIENCE ==========-->
+          <section class="experience section" id="experience">
+            <h2 class="section-title"><Pic>Experience</Pic></h2>
+
+            <div class="experience__data bd-grid">
+              <span class="experience__company">Odenkirk Private Limited | Software Developer Internship Sep 2024 - Nov 2024</span>
+              <span class="experience__company">Project 1 </span> 
+              <p class="experience__description">
+               Built a dynamic map interface with Leaflet, adding markers, polylines, clusters, and GeoJSON layers. Generated unique IDs for 3,000+ markers using UUID. Designed color-coded layers and made components fully responsive till 320px.
+              </p>
+              <span class="experience__company">Project 2 </span>
+              <p class="experience__description">
+               Redesigned an entire website UI from Figma, created responsive design for all screen sizes.
+              </p>
+              <span class="experience__company">Project 3 </span>
+              <p class="experience__description">
+                 Updated components to a new UI, created sign-up pages with password validation.
+                </p>
+            </div>
+          </section>
+
+          <section class="experience section" id="experience">
+            <h2 class="section-title"><Pic>PROJECTS</Pic></h2>
+
+            <div class="experience__data bd-grid">
+              <span class="experience__company">PDF-bot</span>
+              <p class="experience__description">
+                Users can upload PDFs, ask questions about them, and get answers through a chat interface powered by LlamaIndex. The tool uses a React frontend, supports CORS, and enables AI-driven document Q&A. Server wake-up time: 50 secs.
+              </p>
+              <a
+                href="https://pdf-bot-hosting.onrender.com/"
+                class="custom-link"
+                >CLICK TO VIEW</a
+              >
+
+              <span class="experience__company">Movies wiki </span>
+              <p class="experience__description">
+                Developed a MERN movie app with a RESTful API backend,
+                leveraging an external movie API for data integration.
+                Implemented CRUD operations and user authentication with JWT.
+                Deployed the application on a cloud platform for accessibility.
+                Max wake up time 50 secs
+              </p>
+              <a href="https://movies-wiki.onrender.com" class="custom-link"
+                >CLICK TO VIEW</a
+              >
+
+              <span class="experience__company">Quiz App </span>
+              <p class="experience__description">
+                Built using React.js for the frontend, Node.js with Express for
+                the backend, and MySQL for the database. Max wake-up time 50
+                secs or reload the page
+              </p>
+              <a
+                href="https://quiz-app-client-k7i4.onrender.com/"
+                class="custom-link"
+                >CLICK TO VIEW</a
+              >
+
+              <span class="experience__company">Resume </span>
+              <p class="experience__description">
+                Built an interactive online resume using HTML, CSS, and
+                JavaScript. It features PDF generation and is responsive for any
+                device or browser. The design ensures clean printing on A4 sized
+                paper.
+              </p>
+              <a href="https://brajesh-s.github.io/Resume/" class="custom-link"
+                >CLICK TO VIEW</a
+              >
+            </div>
+          </section>
+
+          <!--========== SKILLS  ==========-->
+          <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+
+            <div class="skills__content">
+              <ul class="skills__data">
+                <li class="skills__category">Front-End Technologies:</li>
+                <li class="skills__item">
+                  <div class="skills__circle"></div>
+                  Typescript
+                </li>
+                <li class="skills__item">
+                  <div class="skills__circle"></div>
+                  JavaScript
+                </li>
+                <li class="skills__item">
+                  <div class="skills__circle"></div>
+                  React.js
+                </li>
+                <li class="skills__category">Back-End Technologies:</li>
+                <li class="skills__item">
+                  <div class="skills__circle"></div>
+                  Express
+                </li>
+
+                <li class="skills__item">
+                  <div class="skills__circle"></div>
+                  Node.js
+                </li>
+                <li class="skills__item">
+                  <div class="skills__circle"></div>
+                  FastAPI
+                </li>
+                <li class="skills__item">
+                  <div class="skills__circle"></div>
+                  Uvicorn
+                </li>
+                <li class="skills__item">
+                  <div class="skills__circle"></div>
+                  LlamaIndex
+                </li>
+
+                <li class="skills__category">Database and Data Storage:</li>
+                <li class="skills__item">
+                  <div class="skills__circle"></div>
+                  MySQL
+                </li>
+                <li class="skills__item">
+                  <div class="skills__circle"></div>
+                  MongoDB
+                </li>
+
+                <li class="skills__item">
+                  <div class="skills__circle"></div>
+                  Firebase
+                </li>
+
+                <li class="skills__category">
+                  Version Control and Collaboration:
+                </li>
+                <li class="skills__item">
+                  <div class="skills__circle"></div>
+                  Git
+                </li>
+                <li class="skills__category">Programming Languages:</li>
+                <li class="skills__item">
+                  <div class="skills__circle"></div>
+                  Python
+                </li>
+              </ul>
+            </div>
+          </section>
+          </main>
+
+          <!--========== SCROLL TOP ==========-->
+          <a href="#" class="scrolltop" id="scroll-top">
+            <i class="bx bx-up-arrow-alt scrolltop__icon"></i>
+          </a>
+
+          <!--========== HTML2PDF ==========-->
+          <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"
+            integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+          ></script>
+
+
+</script>
+          <!--========== MAIN JS ==========-->
+          <script src="main.js"></script>
+          </body>
 </html>
