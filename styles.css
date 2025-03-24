@@ -113,7 +113,8 @@ body.scale-cv {
 }
 
 .scale-cv .section-title {
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
+  font-size: smaller;
 }
 
 .scale-cv .resume__left,
@@ -147,7 +148,7 @@ body.scale-cv {
 
 .scale-cv .education__container,
 .scale-cv .experience__container {
-  gap: 1.2rem;
+  gap: 1rem;
 }
 
 .scale-cv .education__time,
@@ -159,8 +160,8 @@ body.scale-cv {
   height: 95%;
 }
 
-.scale-cv .education__title {
-  font-size: 14px;
+.scale-cv .education__title, .scale-cv .experience__title, .scale-cv .experience__company, .scale-cv .skills__category, .scale-cv .custom-link{
+  font-size: smaller;
 }
 .scale-cv .education__rounder,
 .scale-cv .experience__rounder {
@@ -176,7 +177,7 @@ body.scale-cv {
 }
 
 .scale-cv .education__data {
-  page-break-inside: avoid;
+  page-break-inside:auto;
 }
 
 .scale-cv .experience__data {
@@ -588,7 +589,6 @@ img {
   }
 }
 
-/* Classes modified for large screen size */
 @media screen and (min-width: 968px) {
   body {
     margin: 3rem 0;
